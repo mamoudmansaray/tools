@@ -1,0 +1,18 @@
+{
+  "title": "Service Records Data Quality Audit",
+  "headers": [
+    "record_id",
+    "program",
+    "service_date",
+    "hours",
+    "billed_amount"
+  ],
+  "numeric": [
+    "hours",
+    "billed_amount"
+  ],
+  "question": "Which records need review before operational reporting?",
+  "label": "issue",
+  "metric": "affected",
+  "limit": "This checks selected rules only. A valid-looking record can still be inaccurate. Do not silently replace missing values with zero."
+}

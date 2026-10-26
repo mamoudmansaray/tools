@@ -1,0 +1,8 @@
+Validated 200 rows. Saved results.csv, project.db, dashboard.html.
+['issue', 'affected']
+('Missing program', 4)
+('Invalid service date', 5)
+('Negative hours', 4)
+('Missing hours', 3)
+('Negative billed amount', 4)
+('Duplicate ID excess rows', 5)
